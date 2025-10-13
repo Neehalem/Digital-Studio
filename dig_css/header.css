@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    background-color: #13131580;
+    justify-content: space-around;
+    color: azure;
+}
+
+.logo {
+    display: contents;
+}
+
+.headlist {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    gap: 12px;
+}
+
+.links {
+    text-decoration: none;
+    color: azure;
+}
+
+.number {
+    text-decoration: none;
+    color: azure;
+}
