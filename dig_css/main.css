@@ -1,0 +1,54 @@
+.basic {
+  background-image: url(./headimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.astronaut_main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.line {
+  border: 1px solid;
+  display: flex;
+  width: 317px;
+  color: azure;
+}
+
+.text_main {
+  color: azure;
+
+}
+
+.digital {
+  font-size: 30px;
+}
+
+.rion {
+  font-size: 100px;
+}
+
+.bottom_main {
+  display: flex;
+  color: azure;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.instruments {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 180px;
+  margin-bottom: 100px;
+}
+
+.date {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
