@@ -1,52 +1,52 @@
-.basic {
+.block-first {
   background-image: url(./headimg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
 }
 
-.astronaut_main {
+.block-first__center {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 100px;
 }
 
-.line {
+.block-first__center-astronaut {
   border: 1px solid;
   display: flex;
   width: 317px;
   color: azure;
 }
 
-.text_main {
+.block-first__center-text {
   color: azure;
 
 }
 
-.digital {
+.block-first__center-text_studio {
   font-size: 30px;
 }
 
-.rion {
+.block-first__center-text_rion {
   font-size: 100px;
 }
 
-.bottom_main {
+.block-first__bottom {
   display: flex;
   color: azure;
   justify-content: space-between;
   align-items: flex-end;
 }
 
-.instruments {
+.block-first__bottom_instruments {
   font-size: 30px;
   font-weight: bold;
   margin-left: 180px;
   margin-bottom: 100px;
 }
 
-.date {
+.block-first__bottom_date {
   font-size: 18px;
   font-weight: bold;
   margin-right: 50px;
