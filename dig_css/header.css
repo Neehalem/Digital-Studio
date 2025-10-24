@@ -10,23 +10,23 @@
     width: 100%;
 }
 
-.logo {
+.header_logo {
     display: contents;
 }
 
-.headlist {
+.header_list {
     list-style: none;
     display: flex;
     text-decoration: none;
     gap: 12px;
 }
 
-.links {
+.header_list_links {
     text-decoration: none;
     color: azure;
 }
 
-.number {
+.header_phone {
     text-decoration: none;
     color: azure;
 }
