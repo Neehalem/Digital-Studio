@@ -1,5 +1,11 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .block-first {
-  background-image: url(./headimg.jpg);
+  background-image: url(/headimg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -21,7 +27,6 @@
 
 .block-first__center-text {
   color: azure;
-
 }
 
 .block-first__center-text_studio {
@@ -52,3 +57,38 @@
   margin-right: 50px;
   margin-bottom: 50px;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  background-color: rgba(19, 19, 21, 0.5);
+  justify-content: space-around;
+  color: azure;
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+}
+
+.header_logo {
+  display: contents;
+}
+
+.header_list {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  gap: 12px;
+}
+
+.header_list_links {
+  text-decoration: none;
+  color: azure;
+}
+
+.header_phone {
+  text-decoration: none;
+  color: azure;
+}
+
+/*# sourceMappingURL=style.css.map */
