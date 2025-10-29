@@ -1,0 +1,57 @@
+.block-first {
+  background-image: url(/headimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+  &__center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+
+    &-astronaut {
+      border: 1px solid;
+      display: flex;
+      width: 317px;
+      color: azure;
+    }
+
+    &-text {
+      color: azure;
+
+      &_studio {
+        font-size: 30px;
+      }
+
+      &_rion {
+        font-size: 100px;
+      }
+
+    }
+
+  }
+
+  &__bottom {
+    display: flex;
+    color: azure;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    &_instruments {
+      font-size: 30px;
+      font-weight: bold;
+      margin-left: 180px;
+      margin-bottom: 100px;
+    }
+
+    &_date {
+      font-size: 18px;
+      font-weight: bold;
+      margin-right: 50px;
+      margin-bottom: 50px;
+    }
+
+  }
+
+}
