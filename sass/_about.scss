@@ -4,13 +4,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  padding-top: 130px;
+  padding-bottom: 130px;
 
   &__top {
 
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 125px;
 
     &-line {
       border: 1px solid;
