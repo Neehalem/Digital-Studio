@@ -1,5 +1,68 @@
 .block-second {
 
-  background-image: none;
+  background-image: url(/img/back2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+  &__top {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 125px;
+
+    &-line {
+      border: 1px solid;
+      width: 317px;
+      color: azure;
+    }
+
+    &-text {
+      font-size: 50px;
+      color: azure;
+      letter-spacing: 5px;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 5px;
+
+    &-empty_1 {
+      width: 299px;
+    }
+
+    &-empty_2 {
+      width: 317px;
+    }
+
+    &-text {
+
+      width: 483.16px;
+
+      &-bold {
+        color: azure;
+        font-size: 25px;
+        font-weight: bold;
+      }
+
+      &-down {
+        color: azure;
+        font-size: 20px;
+      }
+
+      &-date {
+        color: azure;
+        font-size: 20px;
+        padding-left: 60%;
+      }
+
+
+    }
+
+  }
 
 }
