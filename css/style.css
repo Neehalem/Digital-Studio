@@ -10,47 +10,39 @@
   background-size: cover;
   height: 100%;
 }
-
 .block-first__center {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 100px;
 }
-
 .block-first__center-astronaut {
   border: 1px solid;
   display: flex;
   width: 317px;
   color: azure;
 }
-
 .block-first__center-text {
   color: azure;
 }
-
 .block-first__center-text_studio {
   font-size: 30px;
 }
-
 .block-first__center-text_rion {
   font-size: 100px;
 }
-
 .block-first__bottom {
   display: flex;
   color: azure;
   justify-content: space-between;
   align-items: flex-end;
 }
-
 .block-first__bottom_instruments {
   font-size: 30px;
   font-weight: bold;
   margin-left: 180px;
   margin-bottom: 100px;
 }
-
 .block-first__bottom_date {
   font-size: 18px;
   font-weight: bold;
@@ -69,26 +61,72 @@
   position: absolute;
   width: 100%;
 }
-
 .header_logo {
   display: contents;
 }
-
 .header_list {
   list-style: none;
   display: flex;
   text-decoration: none;
   gap: 12px;
 }
-
 .header_list_links {
   text-decoration: none;
   color: azure;
 }
-
 .header_phone {
   text-decoration: none;
   color: azure;
 }
 
-/*# sourceMappingURL=style.css.map */
+.block-second {
+  background-image: url(/img/back2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.block-second__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 125px;
+}
+.block-second__top-line {
+  border: 1px solid;
+  width: 317px;
+  color: azure;
+}
+.block-second__top-text {
+  font-size: 50px;
+  color: azure;
+  letter-spacing: 5px;
+}
+.block-second__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 5px;
+}
+.block-second__bottom-empty_1 {
+  width: 299px;
+}
+.block-second__bottom-empty_2 {
+  width: 317px;
+}
+.block-second__bottom-text {
+  width: 483.16px;
+}
+.block-second__bottom-text-bold {
+  color: azure;
+  font-size: 25px;
+  font-weight: bold;
+}
+.block-second__bottom-text-down {
+  color: azure;
+  font-size: 20px;
+}
+.block-second__bottom-text-date {
+  color: azure;
+  font-size: 20px;
+  padding-left: 60%;
+}/*# sourceMappingURL=style.css.map */
