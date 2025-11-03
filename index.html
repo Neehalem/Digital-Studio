@@ -10,22 +10,27 @@
 
 <body>
     <header class="header">
-        <a class="header_logo" href="#top">
+
+        <a class="header__logo" href="#top">
             <img src="./img/logoh.svg" alt="Лого Орион">
         </a>
 
-        <ul class="header_list">
-            <li><a class="header_list_links" href="#">О студии</a></li>
-            <li><a class="header_list_links" href="#">Наши преимущества</a></li>
-            <li><a class="header_list_links" href="#">Интеграция с сервисами</a></li>
-            <li><a class="header_list_links" href="#">Команда</a></li>
-            <li><a class="header_list_links" href="#">Обратная связь</a></li>
-            <li><a class="header_list_links" href="#">Портфолио</a></li>
-            <li><a class="header_list_links" href="#">Отзывы</a></li>
-            <li><a class="header_list_links" href="#">Как нас найти</a></li>
+        <a class="header__burger" href="#menu">
+            <img src="./img/burger.svg" alt="Кнопка">
+        </a>
+
+        <ul class="header__list">
+            <li><a class="header__list-links" href="#">О студии</a></li>
+            <li><a class="header__list-links" href="#">Наши преимущества</a></li>
+            <li><a class="header__list-links" href="#">Интеграция с сервисами</a></li>
+            <li><a class="header__list-links" href="#">Команда</a></li>
+            <li><a class="header__list-links" href="#">Обратная связь</a></li>
+            <li><a class="header__list-links" href="#">Портфолио</a></li>
+            <li><a class="header__list-links" href="#">Отзывы</a></li>
+            <li><a class="header__list-links" href="#">Как нас найти</a></li>
         </ul>
 
-        <a class="header_phone" href=tel:+79173183828>+79173183828</a>
+        <a class="header__phone" href=tel:+79173183828>+79173183828</a>
 
     </header>
 
@@ -34,8 +39,8 @@
         <section class="block-first">
 
             <div class="block-first__center">
-                <div class="block-first__center-astronaut"></div>
-                <img src="./img/astronautmain.svg" alt="Космонавт О">
+                <div class="block-first__center-line"></div>
+                <div class="block-first__center-astronaut"><img src="./img/astronautmain.svg" alt="Космонавт О"></div>
                 <div class="block-first__center-text">
                     <p><span class="block-first__center-text_studio">DIGITAL-СТУДИЯ</span></p>
                     <p><span class="block-first__center-text_rion">RION</span></p>
@@ -43,12 +48,12 @@
             </div>
 
             <div class="block-first__bottom">
-                <p class="block-first__bottom_instruments">
+                <div class="block-first__bottom_instruments">
                     Используйте <br>эффективные <br>инструменты
-                </p>
-                <p class="block-first__bottom_date">
+                </div>
+                <div class="block-first__bottom_date">
                     2025 ©
-                </p>
+                </div>
             </div>
 
         </section>

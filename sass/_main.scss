@@ -2,30 +2,57 @@
   background-image: url(/img/headimg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 800px;
 
   &__center {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding-top: 100px;
+    position: relative;
+    padding-top: 250px;
+    height: 550px;
 
-    &-astronaut {
+    @media screen and (max-width: 768px) {
+      padding-top: 100px;
+    }
+
+    &-line {
       border: 1px solid;
-      display: flex;
       width: 317px;
       color: azure;
+
+      @media screen and (max-width: 768px) {
+        width: 7vw;
+        position: absolute;
+      }
+    }
+
+    &-astronaut {
+      @media screen and (max-width: 768px) {
+        transform: scale(0.7);
+        width: 30vw;
+        height: 100vh;
+      }
     }
 
     &-text {
       color: azure;
+      position: absolute;
+      right: 14vh;
 
       &_studio {
         font-size: 30px;
+
+        @media screen and (max-width: 768px) {
+          font-size: 25px;
+        }
       }
 
       &_rion {
         font-size: 100px;
+
+        @media screen and (max-width: 768px) {
+          font-size: 60px;
+        }
       }
 
     }
@@ -38,11 +65,22 @@
     justify-content: space-between;
     align-items: flex-end;
 
+
+    @media screen and (max-width: 768px) {
+      flex-direction: row-reverse;
+    }
+
     &_instruments {
       font-size: 30px;
       font-weight: bold;
       margin-left: 180px;
       margin-bottom: 100px;
+
+      @media screen and (max-width: 768px) {
+        margin-right: auto;
+        margin-bottom: auto;
+      }
+
     }
 
     &_date {
@@ -50,6 +88,12 @@
       font-weight: bold;
       margin-right: 50px;
       margin-bottom: 50px;
+
+      @media screen and (max-width: 768px) {
+        margin-left: auto;
+        margin-bottom: auto;
+      }
+
     }
 
   }
