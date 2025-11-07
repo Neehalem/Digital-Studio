@@ -50,19 +50,28 @@
     margin: 30px;
 
     @media screen and (max-width: 768px) {
-      font-size: 17px;
-      gap: 10px;
+      gap: 30px;
       padding-top: 30px;
+      flex-wrap: wrap;
+      justify-content: space-around;
     }
 
     &-bold {
       font-weight: bold;
+
+      @media screen and (max-width: 768px) {
+        width: 250px;
+      }
     }
 
     &-text {
       display: flex;
       flex-direction: column;
       gap: 20px;
+
+      @media screen and (max-width: 768px) {
+        width: 250px;
+      }
     }
   }
 }

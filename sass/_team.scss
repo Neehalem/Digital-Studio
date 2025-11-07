@@ -1,0 +1,46 @@
+.block-fifth {
+  background-image: url(/img/headimg.jpg);
+  padding-top: 130px;
+  padding-bottom: 130px;
+
+  &__top {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    &-text {
+      color: azure;
+      font-size: 30px;
+      letter-spacing: 8px;
+    }
+
+    &-line {
+      color: azure;
+      border: 1px solid;
+      width: 800px;
+    }
+
+  }
+
+  &__main {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    color: azure;
+
+    &-number {
+      font-size: 80px;
+      width: 190px;
+      font-weight: bold;
+    }
+
+    &-text {
+      padding-top: 40px;
+      font-size: 30px;
+      width: 190px;
+      font-weight: bold;
+    }
+  }
+
+}
