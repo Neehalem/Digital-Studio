@@ -16,6 +16,11 @@
         padding-right: 70px;
     }
 
+    @media screen and (max-width: 384px) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
     &__logo {
         display: flex;
     }

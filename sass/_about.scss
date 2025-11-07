@@ -22,12 +22,22 @@
       justify-content: normal;
     }
 
+    @media screen and (max-width: 384px) {
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column-reverse;
+    }
+
     &-logo {
       transform: scale(0.9);
 
       @media screen and (max-width: 768px) {
         transform: scale(0.5);
         width: 200px;
+      }
+
+      @media screen and (max-width: 384px) {
+        display: none;
       }
 
     }
@@ -69,6 +79,10 @@
       @media screen and (max-width: 768px) {
         width: 50px;
       }
+
+      @media screen and (max-width: 384px) {
+        width: 0px;
+      }
     }
 
     &-empty_2 {
@@ -77,11 +91,19 @@
       @media screen and (max-width: 768px) {
         width: 50px;
       }
+
+      @media screen and (max-width: 384px) {
+        width: 0px;
+      }
     }
 
     &-text {
 
       width: 483.16px;
+
+      @media screen and (max-width: 384px) {
+        text-align: center;
+      }
 
       &-bold {
         color: azure;
@@ -98,6 +120,10 @@
         color: azure;
         font-size: 20px;
         padding-left: 60%;
+
+        @media screen and (max-width: 384px) {
+          display: none;
+        }
       }
 
 
