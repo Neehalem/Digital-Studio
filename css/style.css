@@ -10,7 +10,6 @@
   background-size: cover;
   height: 800px;
 }
-
 .block-first__center {
   display: flex;
   align-items: center;
@@ -18,98 +17,76 @@
   padding-top: 250px;
   height: 550px;
 }
-
 @media screen and (max-width: 768px) {
   .block-first__center {
     padding-top: 100px;
   }
 }
-
 .block-first__center-line {
   border: 1px solid;
   width: 317px;
   color: azure;
 }
-
 @media screen and (max-width: 768px) {
   .block-first__center-line {
-    width: 7vw;
+    width: 200px;
     position: absolute;
   }
 }
-
 @media screen and (max-width: 768px) {
   .block-first__center-astronaut {
     transform: scale(0.7);
-    width: 30vw;
-    height: 100vh;
+    width: 300px;
+    height: 500px;
   }
 }
-
 .block-first__center-text {
   color: azure;
   position: absolute;
-  right: 14vh;
+  right: 100px;
 }
-
 .block-first__center-text_studio {
   font-size: 30px;
 }
-
 @media screen and (max-width: 768px) {
   .block-first__center-text_studio {
     font-size: 25px;
   }
 }
-
 .block-first__center-text_rion {
   font-size: 100px;
 }
-
 @media screen and (max-width: 768px) {
   .block-first__center-text_rion {
     font-size: 60px;
   }
 }
-
 .block-first__bottom {
   display: flex;
   color: azure;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-@media screen and (max-width: 768px) {
-  .block-first__bottom {
-    flex-direction: row-reverse;
-  }
-}
-
-.block-first__bottom_instruments {
   font-size: 30px;
   font-weight: bold;
   margin-left: 180px;
   margin-bottom: 100px;
 }
-
 @media screen and (max-width: 768px) {
-  .block-first__bottom_instruments {
-    margin-right: auto;
-    margin-bottom: auto;
+  .block-first__bottom {
+    justify-content: flex-end;
+    margin-right: 100px;
   }
 }
-
-.block-first__bottom_date {
-  font-size: 18px;
+.block-first__date {
+  color: azure;
   font-weight: bold;
-  margin-right: 50px;
-  margin-bottom: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
 }
-
 @media screen and (max-width: 768px) {
-  .block-first__bottom_date {
-    margin-left: auto;
-    margin-bottom: auto;
+  .block-first__date {
+    justify-content: center;
+    margin-right: 0px;
   }
 }
 
@@ -124,53 +101,44 @@
   position: absolute;
   width: 100%;
 }
-
 @media screen and (max-width: 768px) {
   .header {
     background-color: unset;
     justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
   }
 }
-
 .header__logo {
   display: flex;
 }
-
 .header__burger {
   display: none;
 }
-
 @media screen and (max-width: 768px) {
   .header__burger {
     display: flex;
   }
 }
-
 .header__list {
   list-style: none;
   display: flex;
   text-decoration: none;
   gap: 12px;
 }
-
 .header__list-links {
   text-decoration: none;
   color: azure;
 }
-
 @media screen and (max-width: 768px) {
   .header__list {
     display: none;
   }
 }
-
 .header__phone {
   text-decoration: none;
   color: azure;
 }
-
 @media screen and (max-width: 768px) {
   .header__phone {
     display: none;
@@ -181,59 +149,91 @@
   background-image: url(/img/back2.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
   padding-top: 130px;
   padding-bottom: 130px;
 }
-
+@media screen and (max-width: 768px) {
+  .block-second {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
 .block-second__top {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-
+@media screen and (max-width: 768px) {
+  .block-second__top {
+    gap: 30px;
+    justify-content: normal;
+  }
+}
+.block-second__top-logo {
+  transform: scale(0.9);
+}
+@media screen and (max-width: 768px) {
+  .block-second__top-logo {
+    transform: scale(0.5);
+    width: 200px;
+  }
+}
 .block-second__top-line {
   border: 1px solid;
   width: 317px;
   color: azure;
 }
-
+@media screen and (max-width: 768px) {
+  .block-second__top-line {
+    width: 130px;
+  }
+}
 .block-second__top-text {
   font-size: 50px;
   color: azure;
   letter-spacing: 5px;
 }
-
+@media screen and (max-width: 768px) {
+  .block-second__top-text {
+    width: 300px;
+    font-size: 30px;
+    white-space: nowrap;
+  }
+}
 .block-second__bottom {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   padding-top: 5px;
 }
-
 .block-second__bottom-empty_1 {
   width: 299px;
 }
-
+@media screen and (max-width: 768px) {
+  .block-second__bottom-empty_1 {
+    width: 50px;
+  }
+}
 .block-second__bottom-empty_2 {
   width: 317px;
 }
-
+@media screen and (max-width: 768px) {
+  .block-second__bottom-empty_2 {
+    width: 50px;
+  }
+}
 .block-second__bottom-text {
   width: 483.16px;
 }
-
 .block-second__bottom-text-bold {
   color: azure;
   font-size: 25px;
   font-weight: bold;
 }
-
 .block-second__bottom-text-down {
   color: azure;
   font-size: 20px;
 }
-
 .block-second__bottom-text-date {
   color: azure;
   font-size: 20px;
@@ -244,29 +244,42 @@
   background-image: url(/img/back3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
   padding-top: 130px;
   padding-bottom: 130px;
 }
-
+@media screen and (max-width: 768px) {
+  .block-third {
+    padding-top: 80px;
+    padding-bottom: 230px;
+  }
+}
 .block-third__top {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-
 .block-third__top-text {
   color: azure;
   font-size: 28px;
   letter-spacing: 10px;
 }
-
+@media screen and (max-width: 768px) {
+  .block-third__top-text {
+    font-size: 20px;
+    letter-spacing: 5px;
+    white-space: nowrap;
+  }
+}
 .block-third__top-line {
   border: 1px solid;
   width: 700px;
   color: azure;
 }
-
+@media screen and (max-width: 768px) {
+  .block-third__top-line {
+    width: 300px;
+  }
+}
 .block-third__bottom {
   display: flex;
   justify-content: space-between;
@@ -277,15 +290,18 @@
   gap: 20px;
   margin: 30px;
 }
-
+@media screen and (max-width: 768px) {
+  .block-third__bottom {
+    font-size: 17px;
+    gap: 10px;
+    padding-top: 30px;
+  }
+}
 .block-third__bottom-bold {
   font-weight: bold;
 }
-
 .block-third__bottom-text {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

@@ -3,9 +3,13 @@
   background-image: url(/img/back2.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
   padding-top: 130px;
   padding-bottom: 130px;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
 
   &__top {
 
@@ -13,16 +17,43 @@
     align-items: center;
     justify-content: space-evenly;
 
+    @media screen and (max-width: 768px) {
+      gap: 30px;
+      justify-content: normal;
+    }
+
+    &-logo {
+      transform: scale(0.9);
+
+      @media screen and (max-width: 768px) {
+        transform: scale(0.5);
+        width: 200px;
+      }
+
+    }
+
     &-line {
       border: 1px solid;
       width: 317px;
       color: azure;
+
+      @media screen and (max-width: 768px) {
+        width: 130px;
+      }
+
     }
 
     &-text {
       font-size: 50px;
       color: azure;
       letter-spacing: 5px;
+
+      @media screen and (max-width: 768px) {
+        width: 300px;
+        font-size: 30px;
+        white-space: nowrap;
+      }
+
     }
   }
 
@@ -34,10 +65,18 @@
 
     &-empty_1 {
       width: 299px;
+
+      @media screen and (max-width: 768px) {
+        width: 50px;
+      }
     }
 
     &-empty_2 {
       width: 317px;
+
+      @media screen and (max-width: 768px) {
+        width: 50px;
+      }
     }
 
     &-text {
