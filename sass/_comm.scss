@@ -7,13 +7,31 @@
   backdrop-filter: blur(10px);
   background: rgba(19, 19, 21, 0.5);
 
+  @media screen and (max-width: 768px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  @media screen and (max-width: 384px) {}
+
   &__ship {
     position: absolute;
+
+    @media screen and (max-width: 768px) {}
+
+    @media screen and (max-width: 384px) {}
   }
 
   &__top {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    @media screen and (max-width: 768px) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+
+    @media screen and (max-width: 384px) {}
 
     &-head {
 
@@ -22,16 +40,36 @@
       gap: 20px;
       justify-content: space-evenly;
 
+      @media screen and (max-width: 768px) {
+        justify-content: center;
+        gap: 50px;
+      }
+
+      @media screen and (max-width: 384px) {}
+
       &-line {
         color: azure;
         border: 1px solid;
         width: 700px;
+
+        @media screen and (max-width: 768px) {
+          width: 300px;
+        }
+
+        @media screen and (max-width: 384px) {}
       }
 
       &-text {
         color: azure;
         letter-spacing: 8px;
         font-size: 30px;
+
+        @media screen and (max-width: 768px) {
+          font-size: 25px;
+          flex-wrap: nowrap;
+        }
+
+        @media screen and (max-width: 384px) {}
       }
     }
   }
@@ -42,36 +80,38 @@
     color: azure;
 
     &-in {
+      row-gap: 20px;
+      column-gap: 70px;
       display: flex;
       flex-wrap: wrap;
-      row-gap: 40px;
-      column-gap: 30px;
-      justify-content: center;
+      padding-left: 70px;
+
 
       &-name {
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 30px;
       }
 
       &-comment {
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 30px;
       }
 
       &-number {
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 30px;
       }
     }
 
     &-box {
       display: flex;
       align-items: center;
-      padding-top: 30px;
+      padding-top: 50px;
       gap: 10px;
+      justify-content: center;
 
       &-input {
         width: 25px;
@@ -94,7 +134,7 @@
     &-call {
       display: flex;
       justify-content: center;
-      padding-top: 30px;
+      padding-top: 80px;
 
       &-button {
         border: none;
@@ -121,7 +161,7 @@
   }
 
   &__input {
-    width: 600px;
+    width: 500px;
     font-size: 20px;
     color: azure;
     border: none;
@@ -141,7 +181,7 @@
   }
 
   &__input {
-    width: 600px;
+    width: 500px;
     font-size: 20px;
     color: azure;
     border: none;
@@ -161,7 +201,7 @@
   }
 
   &__input {
-    width: 600px;
+    width: 500px;
     font-size: 20px;
     color: azure;
     border: none;
