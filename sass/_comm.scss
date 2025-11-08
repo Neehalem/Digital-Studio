@@ -17,9 +17,15 @@
   &__ship {
     position: absolute;
 
-    @media screen and (max-width: 768px) {}
+    @media screen and (max-width: 768px) {
+      width: 750px;
+      height: 600px;
+    }
 
-    @media screen and (max-width: 384px) {}
+    @media screen and (max-width: 384px) {
+      width: 300px;
+      height: 600px;
+    }
   }
 
   &__top {
@@ -31,7 +37,10 @@
       padding-bottom: 60px;
     }
 
-    @media screen and (max-width: 384px) {}
+    @media screen and (max-width: 384px) {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
 
     &-head {
 
@@ -45,7 +54,9 @@
         gap: 50px;
       }
 
-      @media screen and (max-width: 384px) {}
+      @media screen and (max-width: 384px) {
+        flex-direction: column-reverse;
+      }
 
       &-line {
         color: azure;
@@ -86,6 +97,10 @@
       flex-wrap: wrap;
       padding-left: 70px;
 
+      @media screen and (max-width: 384px) {
+        padding-left: 30px;
+      }
+
 
       &-name {
         display: flex;
@@ -112,6 +127,11 @@
       padding-top: 50px;
       gap: 10px;
       justify-content: center;
+      padding-left: 70px;
+
+      @media screen and (max-width: 384px) {
+        padding-left: 30px;
+      }
 
       &-input {
         width: 25px;
@@ -121,6 +141,10 @@
       &-text {
         font-weight: bold;
         font-size: 20px;
+
+        @media screen and (max-width: 768px) {
+          font-size: 15px;
+        }
       }
 
       &-text2 {
@@ -143,6 +167,10 @@
         color: azure;
         font-size: 20px;
         padding: 15px 200px;
+
+        @media screen and (max-width: 384px) {
+          padding: 15px 100px;
+        }
       }
     }
   }
@@ -169,6 +197,10 @@
     font-weight: bold;
     outline: none;
     border-bottom: 1px solid;
+
+    @media screen and (max-width: 768px) {
+      width: 300px;
+    }
   }
 }
 
@@ -189,6 +221,10 @@
     font-weight: bold;
     outline: none;
     border-bottom: 1px solid;
+
+    @media screen and (max-width: 768px) {
+      width: 300px;
+    }
   }
 }
 
@@ -197,7 +233,7 @@
     font-size: 20px;
     font-weight: bold;
     color: azure;
-    padding-left: 30px;
+    padding-left: 20px;
   }
 
   &__input {
@@ -209,5 +245,9 @@
     font-weight: bold;
     outline: none;
     border-bottom: 1px solid;
+
+    @media screen and (max-width: 768px) {
+      width: 300px;
+    }
   }
 }
