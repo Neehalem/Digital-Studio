@@ -10,22 +10,27 @@
 
 <body>
     <header class="header">
-        <a class="header_logo" href="#top">
+
+        <a class="header__logo" href="#top">
             <img src="./img/logoh.svg" alt="Лого Орион">
         </a>
 
-        <ul class="header_list">
-            <li><a class="header_list_links" href="#">О студии</a></li>
-            <li><a class="header_list_links" href="#">Наши преимущества</a></li>
-            <li><a class="header_list_links" href="#">Интеграция с сервисами</a></li>
-            <li><a class="header_list_links" href="#">Команда</a></li>
-            <li><a class="header_list_links" href="#">Обратная связь</a></li>
-            <li><a class="header_list_links" href="#">Портфолио</a></li>
-            <li><a class="header_list_links" href="#">Отзывы</a></li>
-            <li><a class="header_list_links" href="#">Как нас найти</a></li>
+        <a class="header__burger" href="#menu">
+            <img src="./img/burger.svg" alt="Кнопка">
+        </a>
+
+        <ul class="header__list">
+            <li><a class="header__list-links" href="#">О студии</a></li>
+            <li><a class="header__list-links" href="#">Наши преимущества</a></li>
+            <li><a class="header__list-links" href="#">Интеграция с сервисами</a></li>
+            <li><a class="header__list-links" href="#">Команда</a></li>
+            <li><a class="header__list-links" href="#">Обратная связь</a></li>
+            <li><a class="header__list-links" href="#">Портфолио</a></li>
+            <li><a class="header__list-links" href="#">Отзывы</a></li>
+            <li><a class="header__list-links" href="#">Как нас найти</a></li>
         </ul>
 
-        <a class="header_phone" href=tel:+79173183828>+79173183828</a>
+        <a class="header__phone" href=tel:+79173183828>+79173183828</a>
 
     </header>
 
@@ -34,8 +39,8 @@
         <section class="block-first">
 
             <div class="block-first__center">
-                <div class="block-first__center-astronaut"></div>
-                <img src="./img/astronautmain.svg" alt="Космонавт О">
+                <div class="block-first__center-line"></div>
+                <div class="block-first__center-astronaut"><img src="./img/astronautmain.svg" alt="Космонавт О"></div>
                 <div class="block-first__center-text">
                     <p><span class="block-first__center-text_studio">DIGITAL-СТУДИЯ</span></p>
                     <p><span class="block-first__center-text_rion">RION</span></p>
@@ -43,12 +48,11 @@
             </div>
 
             <div class="block-first__bottom">
-                <p class="block-first__bottom_instruments">
-                    Используйте <br>эффективные <br>инструменты
-                </p>
-                <p class="block-first__bottom_date">
-                    2025 ©
-                </p>
+                Используйте <br>эффективные <br>инструменты
+            </div>
+
+            <div class="block-first__date">
+                2025 ©
             </div>
 
         </section>
@@ -83,7 +87,7 @@
                         <br>и предлагаем оптимальные решения как с точки зрения роста продаж,
                         <br>так и с учетом Вашего бюджета.
                         <br>
-                        <br><span class="block-second__bottom-text-date"></span>Работаем с 2019 года</span>
+                        <br><span class="block-second__bottom-text-date">Работаем с 2019 года</span>
                 </div>
 
             </div>
@@ -129,6 +133,49 @@
 
             </div>
 
+        </section>
+
+        <section class="block-fourth">
+            <div class="block-fourth__integration-top">
+                <div class="block-fourth__integration-top-line"></div>
+                <div class="block-fourth__integration-top-text">ИНТЕГРАЦИЯ С СЕРВИСАМИ</div>
+            </div>
+            <div class="block-fourth__integration-main">
+                <img class="block-fourth__integration-main-logo" src="./img/Logo_1C.svg" alt="1С">
+                <img class="block-fourth__integration-main-logo" src="./img/Logo_СБЕР.svg" alt="СБЕР">
+                <img class="block-fourth__integration-main-logo" src="./img/Logo_DHL.svg" alt="DHL">
+                <img class="block-fourth__integration-main-logo" src="./img/Logo_DPD.svg" alt="DPD">
+                <img class="block-fourth__integration-main-logo-tab" src="./img/Logo_CDEK.svg" alt="СДЕК">
+                <img class="block-fourth__integration-main-logo-tab" src="./img/Logo_Битрикс24.svg" alt="Битрикс 24">
+            </div>
+        </section>
+
+        <section class="block-fifth">
+            <div class="block-fifth__top">
+                <div class="block-fifth__top-text">
+                    КОМАНДА
+                </div>
+                <div class="block-fifth__top-line"></div>
+            </div>
+
+            <div class="block-fifth__main">
+                <div class="block-fifth__main-frst">
+                    <div class="block-fifth__main-number">15</div>
+                    <div class="block-fifth__main-text">Опытных специалистов</div>
+                </div>
+                <div class="block-fifth__main-scnd">
+                    <div class="block-fifth__main-number">>100</div>
+                    <div class="block-fifth__main-text">Успешных проектов за последний год</div>
+                </div>
+                <div class="block-fifth__main-thrd">
+                    <div class="block-fifth__main-number">10</div>
+                    <div class="block-fifth__main-text">Лет опыта в среднем у каждого члена команды</div>
+                </div>
+                <div class="block-fifth__main-four">
+                    <div class="block-fifth__main-number">95%</div>
+                    <div class="block-fifth__main-text">Проектов запускается вовремя</div>
+                </div>
+            </div>
         </section>
 
     </main>

@@ -2,30 +2,89 @@
   background-image: url(/img/headimg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 800px;
+
+  @media screen and (max-width: 384px) {
+    height: 700px;
+  }
 
   &__center {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding-top: 100px;
+    position: relative;
+    padding-top: 250px;
+    height: 550px;
 
-    &-astronaut {
+    @media screen and (max-width: 768px) {
+      padding-top: 100px;
+    }
+
+    @media screen and (max-width: 384px) {
+      padding-top: 0px;
+      height: 450px;
+    }
+
+    &-line {
       border: 1px solid;
-      display: flex;
       width: 317px;
       color: azure;
+
+      @media screen and (max-width: 768px) {
+        width: 200px;
+        position: absolute;
+      }
+
+      @media screen and (max-width: 384px) {
+        width: 100px;
+      }
+    }
+
+    &-astronaut {
+      @media screen and (max-width: 768px) {
+        transform: scale(0.7);
+        width: 300px;
+        height: 500px;
+      }
+
+      @media screen and (max-width: 384px) {
+        transform: scale(0.5);
+        display: flex;
+        justify-content: center;
+      }
     }
 
     &-text {
       color: azure;
+      position: absolute;
+      right: 100px;
+
+      @media screen and (max-width: 384px) {
+        position: relative;
+        right: 40px;
+      }
 
       &_studio {
         font-size: 30px;
+
+        @media screen and (max-width: 768px) {
+          font-size: 25px;
+        }
+
+        @media screen and (max-width: 384px) {
+          font-size: 20px;
+        }
       }
 
       &_rion {
         font-size: 100px;
+
+        @media screen and (max-width: 768px) {
+          font-size: 60px;
+        }
+
+        @media screen and (max-width: 384px) {
+          font-size: 50px;
+        }
       }
 
     }
@@ -35,23 +94,33 @@
   &__bottom {
     display: flex;
     color: azure;
-    justify-content: space-between;
-    align-items: flex-end;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 180px;
+    margin-bottom: 100px;
 
-    &_instruments {
-      font-size: 30px;
-      font-weight: bold;
-      margin-left: 180px;
-      margin-bottom: 100px;
+    @media screen and (max-width: 768px) {
+      justify-content: flex-end;
+      margin-right: 100px;
     }
 
-    &_date {
-      font-size: 18px;
-      font-weight: bold;
-      margin-right: 50px;
-      margin-bottom: 50px;
+    @media screen and (max-width: 384px) {
+      margin-right: 30px;
     }
+  }
 
+  &__date {
+    color: azure;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+
+    @media screen and (max-width: 768px) {
+      justify-content: center;
+      margin-right: 0px;
+    }
   }
 
 }
