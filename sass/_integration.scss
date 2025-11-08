@@ -2,6 +2,7 @@
 
   padding-top: 130px;
   padding-bottom: 130px;
+  font-family: 'Roboto';
 
   @media screen and (max-width: 768px) {
     padding-top: 80px;
@@ -70,20 +71,20 @@
     }
 
     &-logo {
-      margin-top: 150px;
+      margin-top: 100px;
 
       &-tab {
+        margin-top: 100px;
+
         @media screen and (max-width: 768px) {
           display: none;
+          margin-top: 50px;
         }
 
         @media screen and (max-width: 384px) {
           display: flex;
+          margin-top: 100px;
         }
-      }
-
-      @media screen and (max-width: 768px) {
-        margin-top: 50px;
       }
     }
   }
