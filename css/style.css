@@ -335,10 +335,23 @@
     padding-bottom: 230px;
   }
 }
+@media screen and (max-width: 768px) {
+  .block-third {
+    padding-bottom: 50px;
+  }
+}
 .block-third__top {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+@media screen and (max-width: 384px) {
+  .block-third__top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
 }
 .block-third__top-text {
   color: azure;
@@ -378,6 +391,12 @@
     padding-top: 30px;
     flex-wrap: wrap;
     justify-content: space-around;
+  }
+}
+@media screen and (max-width: 384px) {
+  .block-third__bottom {
+    text-align: center;
+    padding-top: 15px;
   }
 }
 .block-third__bottom-bold {
@@ -439,6 +458,11 @@
 @media screen and (max-width: 768px) {
   .block-fourth__integration-top-line {
     width: 200px;
+  }
+}
+@media screen and (max-width: 384px) {
+  .block-fourth__integration-top-line {
+    width: 300px;
   }
 }
 .block-fourth__integration-top-text {
@@ -504,6 +528,14 @@
   align-items: center;
   justify-content: space-evenly;
 }
+@media screen and (max-width: 384px) {
+  .block-fifth__top {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
 .block-fifth__top-text {
   color: azure;
   font-size: 30px;
@@ -524,6 +556,11 @@
     width: 400px;
   }
 }
+@media screen and (max-width: 384px) {
+  .block-fifth__top-line {
+    width: 300px;
+  }
+}
 .block-fifth__main {
   margin-top: 150px;
   display: flex;
@@ -533,6 +570,13 @@
 @media screen and (max-width: 768px) {
   .block-fifth__main {
     margin-top: 80px;
+  }
+}
+@media screen and (max-width: 384px) {
+  .block-fifth__main {
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 30px;
   }
 }
 .block-fifth__main-number {
@@ -546,6 +590,11 @@
     width: 100px;
   }
 }
+@media screen and (max-width: 384px) {
+  .block-fifth__main-number {
+    width: 150px;
+  }
+}
 .block-fifth__main-text {
   padding-top: 40px;
   font-size: 30px;
@@ -556,5 +605,11 @@
   .block-fifth__main-text {
     font-size: 20px;
     width: 100px;
+  }
+}
+@media screen and (max-width: 384px) {
+  .block-fifth__main-text {
+    width: 150px;
+    padding-top: 20px;
   }
 }/*# sourceMappingURL=style.css.map */

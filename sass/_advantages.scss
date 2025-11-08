@@ -11,10 +11,21 @@
     padding-bottom: 230px;
   }
 
+  @media screen and (max-width: 768px) {
+    padding-bottom: 50px;
+  }
+
   &__top {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
+    @media screen and (max-width: 384px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
 
     &-text {
       color: azure;
@@ -26,6 +37,7 @@
         letter-spacing: 5px;
         white-space: nowrap;
       }
+
     }
 
     &-line {
@@ -54,6 +66,11 @@
       padding-top: 30px;
       flex-wrap: wrap;
       justify-content: space-around;
+    }
+
+    @media screen and (max-width: 384px) {
+      text-align: center;
+      padding-top: 15px;
     }
 
     &-bold {
