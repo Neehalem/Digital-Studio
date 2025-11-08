@@ -8,6 +8,7 @@
     z-index: 10;
     position: absolute;
     width: 100%;
+    font-family: 'Roboto';
 
     @media screen and (max-width: 768px) {
         background-color: unset;
@@ -37,7 +38,8 @@
         list-style: none;
         display: flex;
         text-decoration: none;
-        gap: 12px;
+        gap: 20px;
+        font-size: 12px;
 
         &-links {
             text-decoration: none;

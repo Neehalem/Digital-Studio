@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
+  font-family: "Roboto";
 }
 
 @media screen and (max-width: 384px) {
@@ -166,6 +167,7 @@
   z-index: 10;
   position: absolute;
   width: 100%;
+  font-family: "Roboto";
 }
 
 @media screen and (max-width: 768px) {
@@ -202,7 +204,8 @@
   list-style: none;
   display: flex;
   text-decoration: none;
-  gap: 12px;
+  gap: 20px;
+  font-size: 12px;
 }
 
 .header__list-links {
@@ -233,6 +236,7 @@
   background-size: cover;
   padding-top: 130px;
   padding-bottom: 130px;
+  font-family: "Roboto";
 }
 
 @media screen and (max-width: 768px) {
@@ -289,6 +293,12 @@
 @media screen and (max-width: 768px) {
   .block-second__top-line {
     width: 130px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  .block-second__top-line {
+    width: 300px;
   }
 }
 
@@ -369,7 +379,7 @@
 .block-second__bottom-text-date {
   color: azure;
   font-size: 20px;
-  padding-left: 60%;
+  padding-left: 50%;
 }
 
 @media screen and (max-width: 384px) {
@@ -384,6 +394,7 @@
   background-size: cover;
   padding-top: 130px;
   padding-bottom: 130px;
+  font-family: "Roboto";
 }
 
 @media screen and (max-width: 768px) {
@@ -492,6 +503,7 @@
 .block-fourth {
   padding-top: 130px;
   padding-bottom: 130px;
+  font-family: "Roboto";
 }
 
 @media screen and (max-width: 768px) {
@@ -579,24 +591,24 @@
 }
 
 .block-fourth__integration-main-logo {
-  margin-top: 150px;
+  margin-top: 100px;
+}
+
+.block-fourth__integration-main-logo-tab {
+  margin-top: 100px;
 }
 
 @media screen and (max-width: 768px) {
   .block-fourth__integration-main-logo-tab {
     display: none;
+    margin-top: 50px;
   }
 }
 
 @media screen and (max-width: 384px) {
   .block-fourth__integration-main-logo-tab {
     display: flex;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .block-fourth__integration-main-logo {
-    margin-top: 50px;
+    margin-top: 100px;
   }
 }
 
@@ -604,6 +616,7 @@
   background-image: url(../img/headimg.jpg);
   padding-top: 130px;
   padding-bottom: 130px;
+  font-family: "Roboto";
 }
 
 @media screen and (max-width: 768px) {
@@ -717,6 +730,14 @@
     width: 150px;
     padding-top: 20px;
   }
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/");
+  src: url("../fonts/Roboto/RobotoMono-Light.eot") format("embedded-opentype"), url("../fonts/Roboto/RobotoMono-Light.woff") format("woff"), url("../fonts/Roboto/RobotoMono-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /*# sourceMappingURL=style.css.map */
