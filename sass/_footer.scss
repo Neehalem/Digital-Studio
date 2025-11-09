@@ -1,0 +1,73 @@
+.footer {
+  position: relative;
+  z-index: 10;
+  background-image: url(../img/back2.png);
+  background-color: rgba(19, 19, 21, 0.5);
+
+  &__base {
+    padding-top: 50px;
+
+    @media screen and (max-width: 768px) {
+      padding-top: 35px;
+    }
+
+    @media screen and (max-width: 384px) {
+      padding-top: 48px;
+    }
+
+    &-main {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: azure;
+      font-weight: bold;
+      font-size: 12px;
+      font-family: 'Roboto';
+
+      @media screen and (max-width: 768px) {
+        font-size: 20px;
+      }
+
+      @media screen and (max-width: 384px) {
+        flex-direction: column;
+        gap: 24px;
+      }
+
+      &_logo {
+        @media screen and (max-width: 768px) {
+          width: 161px;
+        }
+
+        @media screen and (max-width: 384px) {
+          order: 1;
+          width: 113px;
+        }
+      }
+
+      &_number {
+
+        @media screen and (max-width: 768px) {
+          padding-left: 0;
+        }
+      }
+    }
+
+    &-bottom {
+      display: flex;
+      justify-content: center;
+      color: azure;
+      font-weight: bold;
+      font-size: 20px;
+      padding-top: 30px;
+      font-family: 'Roboto';
+
+      @media screen and (max-width: 768px) {
+        padding-top: 52px;
+      }
+
+      @media screen and (max-width: 384px) {
+        padding-top: 24px;
+      }
+    }
+  }
+}
