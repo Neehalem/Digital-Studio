@@ -1,0 +1,109 @@
+.block-seventh {
+  background-image: url(../img/headimg.jpg);
+  background-size: cover;
+  position: relative;
+  z-index: 9;
+
+  &_astro1 {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+
+    @media screen and (max-width: 384px) {
+      display: none;
+    }
+  }
+
+  &_astro2 {
+    display: none;
+
+    @media screen and (max-width: 768px) {
+      display: inherit;
+      position: absolute;
+      bottom: 0px;
+      z-index: 0;
+    }
+
+    @media screen and (max-width: 384px) {
+      display: none;
+    }
+  }
+
+  &_astro3 {
+    display: none;
+
+    @media screen and (max-width: 384px) {
+      display: inherit;
+      position: absolute;
+      bottom: 0px;
+      z-index: 0;
+    }
+  }
+
+  &__map {
+    position: relative;
+    padding-bottom: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Roboto';
+
+    @media screen and (max-width: 768px) {
+      padding-bottom: 50px;
+    }
+
+    @media screen and (max-width: 384px) {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    &_main {
+      padding-top: 100px;
+      padding-bottom: 100px;
+
+      &-yandex {
+        max-width: 100%;
+      }
+
+      &-top {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: azure;
+        padding-bottom: 30px;
+
+        @media screen and (max-width: 768px) {
+          justify-content: space-evenly;
+        }
+
+        &_text {
+          font-size: 30px;
+          letter-spacing: 8px;
+
+          @media screen and (max-width: 768px) {
+            font-size: 25px;
+          }
+        }
+
+        &_line {
+          border: 1px solid;
+          color: azure;
+          width: 700px;
+
+          @media screen and (max-width: 768px) {
+            width: 300px;
+          }
+        }
+      }
+
+    }
+
+  }
+
+}
